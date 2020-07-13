@@ -1,15 +1,17 @@
-# WordscapeCheat
-A simple python script that generates all the answers to puzzles in the Wordscape app/game
+# WordscapesCheat
+A simple python script that generates all the answers to puzzles in the Wordscapes app/game
 
 ```
-usage: wordscape_cheat.py [-h] letters
+usage: wordscapes_cheat.py [-h] [-d D] [-n N] letters
 
-Wordscape Cheat Tool
+Wordscapes Cheat Tool
 
 positional arguments:
-  letters     Letters presented in Wordscape puzzle
+  letters     Letters presented in Wordscapes puzzle
 
 optional arguments:
   -h, --help  show this help message and exit
+  -d D        Specify a text file containing a custom dictionary
+  -n N        Minimum number of letters for shortest words
 ```
   

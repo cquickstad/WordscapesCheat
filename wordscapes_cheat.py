@@ -12,10 +12,10 @@ except ImportError as e:
 
 
 def parse_arguments():
-    ap = ArgumentParser(description="Wordscape Cheat Tool")
+    ap = ArgumentParser(description="Wordscapes Cheat Tool")
     ap.add_argument('-d', type=str, default="", help="Specify a text file containing a custom dictionary")
-    ap.add_argument('-n', type=int, default=3, help="Minmum number of letters for shortest words")
-    ap.add_argument('letters', nargs=1, type=str, default="", help="Letters presented in Wordscape puzzle")
+    ap.add_argument('-n', type=int, default=3, help="Minimum number of letters for shortest words")
+    ap.add_argument('letters', nargs=1, type=str, default="", help="Letters presented in Wordscapes puzzle")
     return ap.parse_args()
 
 
